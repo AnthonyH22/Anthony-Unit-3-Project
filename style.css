@@ -1,0 +1,191 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+  background-color: #000000; 
+}
+
+img {
+    width: 500px;
+border: 5px outset #ebf38f
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+   font-family: 'Games', sans-serif;
+  color: #f5ec00;
+
+}
+
+.buttons {
+
+  margin: auto;
+ justify-content: center;
+   column-gap: 100;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-family: 'Games', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 60px;
+    width: 95px;
+  background-color: #77bb41;
+   margin: auto;
+ justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 16px;
+    font-family: 'Games', sans-serif;
+  text-align: center;
+  border: 5px outset #ebf38f
+}
+
+button:hover {
+  background-color: #ffb5af;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: #f5ec00;
+   font-family: 'Games', sans-serif;
+}
+
+.class_caption {
+  font-size: 22px;
+}
+
+.option-1_i {
+  display:none;
+}
+
+.option-1:hover + .option-1_i {
+  display: block;
+  color: white;
+}
+
+.option-2_i {
+  display:none;
+}
+
+.option-2:hover + .option-2_i {
+  display: block;
+  color: white;
+}
+
+.hit {
+  display:none;
+}
+
+.option-1-screen {
+  display:none;
+}
+
+.option-2-screen {
+  display:none;
+}
+
+.option-1-end {
+  display:none;
+}
+
+
+.option-2-end {
+  display:none;
+}
+
+.answerYes1 {
+  display:none;
+ justify-content: center;
+  text-align: center;
+}
+
+.answerNo1 {
+  display:none;
+ justify-content: center;
+}
+
+.answerYes2 {
+  display:none;
+  justify-content: center;
+  
+}
+
+.answerNo2 {
+  display:none;
+  justify-content: center;
+}
+
+.noScreen1 {
+  display:none;
+}
+
+
+.noScreen2 {
+  display:none;
+}
+
+.option-1-enemy {
+  display:none;
+   justify-content: center;
+  font-family: 'Games', sans-serif;
+  color: #f5ec00;
+}
+
+.option-2-enemy {
+  display:none;
+  justify-content: center;
+  font-family: 'Games', sans-serif;
+  color: #f5ec00;
+}
+
+.question1 {
+  display:none;
+  font-family: 'Games', sans-serif;
+  color: #f5ec00;
+}
+
+.question2 {
+  display:none;
+  font-family: 'Games', sans-serif;
+  color: #f5ec00;
+}
+
+.win, .win2 {
+  display:none;
+}
+
+.lost, .lost2 {
+  display:none;
+}
+
+.endMessage, .endMessage2, .endMessage3, .endMessage4 {
+  display:none;
+}
+
+.hit1, .hit2, .hit3, .hit4{
+  display:none;
+}
+
+.refresh {
+  display:none;
+}
+
+.clickme {
+  display:block;
+}
+
+.secretmessage {
+  display:none;
+  font-size: 50px;
+  color: white;
+   font-family: 'Games', sans-serif;
+}
