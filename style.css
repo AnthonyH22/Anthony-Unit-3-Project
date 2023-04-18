@@ -1,27 +1,25 @@
 /* Feel free to change any of the styling below!*/
 body {
-    text-align: center;
+  text-align: center;
   background-color: #000000; 
 }
 
 img {
-    width: 500px;
-border: 5px outset #ebf38f
+  width: 500px;
+  border: 5px outset #ebf38f
 }
 
 .title {
-    font-size: 50px;
-    font-weight: 800;
-   font-family: 'Games', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Games', sans-serif;
   color: #f5ec00;
-
 }
 
 .buttons {
-
   margin: auto;
- justify-content: center;
-   column-gap: 100;
+  justify-content: center;
+  column-gap: 100;
   flex-direction: column;
   flex-wrap: wrap;
   font-size: 20px;
@@ -29,21 +27,21 @@ border: 5px outset #ebf38f
 }
 
 p {
-    font-size: 30px;
-    font-weight: 800;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 
 button {
-    height: 60px;
-    width: 95px;
+  height: 60px;
+  width: 95px;
   background-color: #77bb41;
-   margin: auto;
- justify-content: center;
+  margin: auto;
+  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   font-size: 16px;
-    font-family: 'Games', sans-serif;
+  font-family: 'Games', sans-serif;
   text-align: center;
   border: 5px outset #ebf38f
 }
@@ -52,11 +50,10 @@ button:hover {
   background-color: #ffb5af;
 }
 
-
 h1 {
-    font-size: 50px;
-    color: #f5ec00;
-   font-family: 'Games', sans-serif;
+  font-size: 50px;
+  color: #f5ec00;
+  font-family: 'Games', sans-serif;
 }
 
 .class_caption {
@@ -97,20 +94,19 @@ h1 {
   display:none;
 }
 
-
 .option-2-end {
   display:none;
 }
 
 .answerYes1 {
   display:none;
- justify-content: center;
+  justify-content: center;
   text-align: center;
 }
 
 .answerNo1 {
   display:none;
- justify-content: center;
+  justify-content: center;
 }
 
 .answerYes2 {
@@ -128,14 +124,13 @@ h1 {
   display:none;
 }
 
-
 .noScreen2 {
   display:none;
 }
 
 .option-1-enemy {
   display:none;
-   justify-content: center;
+  justify-content: center;
   font-family: 'Games', sans-serif;
   color: #f5ec00;
 }
@@ -187,5 +182,5 @@ h1 {
   display:none;
   font-size: 50px;
   color: white;
-   font-family: 'Games', sans-serif;
+  font-family: 'Games', sans-serif;
 }
