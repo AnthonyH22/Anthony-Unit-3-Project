@@ -45,7 +45,7 @@ let refresh = document.querySelector('.refresh')
 let clickMe = document.querySelector('.clickme')
 let secretMessage = document.querySelector('.secretmessage')
 
- optionOneButton.onclick=function(){
+optionOneButton.onclick=function(){
    storyOpening.style.display="none";
    title.style.display="none";
    optionOne.style.display="block";
@@ -55,44 +55,43 @@ let secretMessage = document.querySelector('.secretmessage')
    questionOne.style.display = "block";
      yes1.style.display = "block";
      no1.style.display = "block";
-   clickMe.style.display = "none";
-  secretMessage.style.display = "none";
+     clickMe.style.display = "none";
+     secretMessage.style.display = "none";
 };
 
 yes1.onclick = function(){
-  optionOne.style.display = "none";
-  enemy1.style.display = "block";
-   yes1.style.display = "none";
-     no1.style.display = "none";
-slice.style.display = "block";
-  dash.style.display = "block";
-  clickMe.style.display = "none";
-  secretMessage.style.display = "none";
-}
+    optionOne.style.display = "none";
+    enemy1.style.display = "block";
+    yes1.style.display = "none";
+    no1.style.display = "none";
+    slice.style.display = "block";
+    dash.style.display = "block";
+    clickMe.style.display = "none";
+    secretMessage.style.display = "none";
+};
 
 no1.onclick = function(){
-  noScreen1.style.display = "block";
-  optionOne.style.display = "none";
-  yes1.style.display = "none";
-  no1.style.display = "none";
-   refresh.style.display = "block";
-  clickMe.style.display = "none";
-  secretMessage.style.display = "none";
+    noScreen1.style.display = "block";
+    optionOne.style.display = "none";
+    yes1.style.display = "none";
+    no1.style.display = "none";
+    refresh.style.display = "block";
+    clickMe.style.display = "none";
+    secretMessage.style.display = "none";
 }
 
- optionTwoButton.onclick=function(){
+optionTwoButton.onclick=function(){
    storyOpening.style.display="none";
    title.style.display="none";
    optionTwo.style.display="block";
    optionTwoButton.style.display="none";
    optionOneButton.style.display="none";
 
-  questionTwo.style.display = "block";
+   questionTwo.style.display = "block";
      yes2.style.display = "block";
      no2.style.display = "block";
-clickMe.style.display = "none";
-  secretMessage.style.display = "none";
-   
+     clickMe.style.display = "none";
+     secretMessage.style.display = "none"; 
 };
 
 yes2.onclick = function(){
@@ -104,65 +103,63 @@ yes2.onclick = function(){
   flame.style.display = "block";
   clickMe.style.display = "none";
   secretMessage.style.display = "none";
-}
+};
 
 no2.onclick = function(){
     noScreen2.style.display = "block";
-  optionTwo.style.display = "none";
-  yes2.style.display = "none";
-  no2.style.display = "none";
-   refresh.style.display = "block";
-  clickMe.style.display = "none";
-  secretMessage.style.display = "none";
-}
+    optionTwo.style.display = "none";
+    yes2.style.display = "none";
+    no2.style.display = "none";
+    refresh.style.display = "block";
+    clickMe.style.display = "none";
+    secretMessage.style.display = "none";
+};
 
 slice.onclick = function(){
-  enemy1.style.display = "none";
-  slice.style.display = "none";
-  dash.style.display = "none";
-  endMessage.style.display = "block";
-  win.style.display = "block";
-  refresh.style.display = "block";
-  clickMe.style.display = "none";
-  secretMessage.style.display = "none";
-  audioSlash.play()
-}
+    enemy1.style.display = "none";
+    slice.style.display = "none";
+    dash.style.display = "none";
+    endMessage.style.display = "block";
+    win.style.display = "block";
+    refresh.style.display = "block";
+    clickMe.style.display = "none";
+    secretMessage.style.display = "none";
+};
 
 dash.onclick = function(){
-   enemy1.style.display = "none";
-  slice.style.display = "none";
-  dash.style.display = "none";
-  endMessage2.style.display = "block";
-  lost.style.display = "block";
+    enemy1.style.display = "none";
+    slice.style.display = "none";
+    dash.style.display = "none";
+    endMessage2.style.display = "block";
+    lost.style.display = "block";
     refresh.style.display = "block";
-  clickMe.style.display = "none";
-  secretMessage.style.display = "none";
-}
+    clickMe.style.display = "none";
+    secretMessage.style.display = "none";
+};
 
 beam.onclick = function(){
    enemy2.style.display = "none";
-  beam.style.display = "none";
-  flame.style.display = "none";
-  endMessage3.style.display = "block";
-  lost2.style.display = "block";
-    refresh.style.display = "block";
-  clickMe.style.display = "none";
-  secretMessage.style.display = "none";
-}
+   beam.style.display = "none";
+   flame.style.display = "none";
+   endMessage3.style.display = "block";
+   lost2.style.display = "block";
+   refresh.style.display = "block";
+   clickMe.style.display = "none";
+   secretMessage.style.display = "none";
+};
 
 flame.onclick = function(){
-  enemy2.style.display = "none";
-  flame.style.display = "none";
-  beam.style.display = "none";
-  endMessage4.style.display = "block";
-  win2.style.display = "block";
-  clickMe.style.display = "none";
-  secretMessage.style.display = "none";
-    refresh.style.display = "block";
-  
-}
+   enemy2.style.display = "none";
+   flame.style.display = "none";
+   beam.style.display = "none";
+   endMessage4.style.display = "block";
+   win2.style.display = "block";
+   clickMe.style.display = "none";
+   secretMessage.style.display = "none";
+   refresh.style.display = "block";
+};
 
 clickMe.onclick = function(){
-  secretMessage.style.display = "block";
-  secretMessage.innerHTML = "This project is very scuffed 💀";
-}
+   secretMessage.style.display = "block";
+   secretMessage.innerHTML = "This project is very scuffed 💀";
+};
